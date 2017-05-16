@@ -1,0 +1,15 @@
+
+<!--pages/history/history.wxml-->
+<view class="container">
+  <navigator url="/pages/order/order" hover-class="navigator-hover" class="main" wx:for="{{items}}">
+    <view class="left">
+      <image src="{{ip}}{{item.src}}"></image>
+    </view>
+    <view class="right">
+      <text class="h">{{item.titles}}</text>
+      <text class="span">购买时间：{{item.time}}</text>
+      <text class="price">￥{{item.price}}元</text>
+      <text class="describe">{{item.describe}}</text>
+    </view>
+  </navigator>
+</view>

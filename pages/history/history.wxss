@@ -1,0 +1,61 @@
+/* pages/history/history.wxss */
+
+page {
+  font-size: 20px;
+  font-family: 微软雅黑;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  padding:0 1rem;
+  display: flex;
+  border-top:1px solid #ccc;
+}
+
+.main .left {
+  width:27.5%;
+  height: 5rem;
+  margin-top:1rem;
+  margin-right: 1.5rem;
+}
+
+.main .left image {
+ width:5.3rem;
+height:3.3rem;
+  border-radius: 5px;
+}
+
+.main .right {
+  display: flex;
+  flex-direction: column;
+  margin-top:1.1rem;
+}
+
+.main .h {
+  font-size: 0.95rem;
+  margin-bottom: .2rem;
+}
+
+.main .span {
+  font-size:   0.75rem;
+  color: #bbb;
+}
+
+.main .price {
+  font-size: 0.85rem;
+  margin:0.5rem 0 1rem 0;
+  color: #aaa;
+}
+
+.main .describe {
+  font-size: 0.75rem;
+  color: #bbb;
+}
