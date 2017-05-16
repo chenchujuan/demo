@@ -8,7 +8,7 @@ App({
     //     var secret = '65dbb28d3e5d92c01eca38333ff72e6a'; //填写微信小程序secret  
     //     // 发起请求获取对应的微信Id
     //     wx.request({
-    //       url: 'https://api.weixin.qq.com/sns/jscode2session?appid=' + appid + '&secret=' + secret + '&js_code=' + loginCode.code + '&grant_type=authorization_code',
+    //       url: 'https://afffpi.weixin.qq.com/sns/jscode2session?appid=' + appid + '&secret=' + secret + '&js_code=' + loginCode.code + '&grant_type=authorization_code',
     //       success: function (res) {
     //         // 成功接受数据
     //         if (res.data) {
